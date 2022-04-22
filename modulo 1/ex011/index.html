@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas e áudios</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Aumente ou diminua a tela do seu navegador para ver o resultado das imagens diminuindo ou aumentando (dimensionamento de telas diferentes)</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-p.jpg" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.jpg" type="image/png">
+        <img src="imagens/imagem-g.jpg" alt="">
+    </picture>
+
+    <h1>Rodando áudio nos sites</h1>
+    <p>Forma 1</p>
+    <audio src="midia/This is Not a Christmas Song - NEFFEX.mp3" autoplay controls></audio>
+    <p>Forma 2</p>
+    <audio preload="metadata" controls autoplay>
+        <source src="midia/This is Not a Christmas Song - NEFFEX.mp3" type="audio/mpeg">
+        <source src="midia/This is Not a Christmas Song - NEFFEX.ogg" type="audio/ogg">
+        <source src="midia/This is Not a Christmas Song - NEFFEX.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não conseguiu reproduzir o áudio. <a href="midia/This is Not a Christmas Song - NEFFEX.mp3">Clique aqui</a> para baixá-lo!</p>
+    </audio>
+    <hr>
+</body>
+</html>
