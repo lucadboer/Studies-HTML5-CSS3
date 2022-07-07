@@ -6,6 +6,7 @@
 
 body{
     background-image: linear-gradient(to right, #3B4752, #0A99D7, #222222);
+    font-size: 0.9em;
 }
 
 main{
@@ -30,3 +31,50 @@ h2{
 p{
     text-align: justify;
 }
+
+#div2{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 600px;
+    box-shadow: 5px 5px 15px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#houver:hover{
+    color: darkorange
+}
+
+#div2 > #oculto{
+    display: none;
+}
+
+#div2:hover > #oculto {
+    display: block;
+}
+
+#oculto {
+    color: darkred;
+}
+
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkred;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    background-color: rgb(44, 4, 61);
+    color: white;
+}
+
+.especial {
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
